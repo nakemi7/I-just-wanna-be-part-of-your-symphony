@@ -6,6 +6,16 @@
     --preto:#000000;
     --branco:#ffffff;
 }
+
 body{
-    background-color: #8770db;
+    background-color: var(--fundo);
+}
+
+footer{
+    background-color: var(--preto);
+    position: fixed;
+    bottom: 0;
+    color: var(--branco);
+    width: 100%;
+    text-align: center;
 }
