@@ -54,8 +54,8 @@ criaCartao(
 
 criaCartao(
     'Matematica',
-    'Como se calcula a soma dos termos de uma P.A?',
-    'ghgjhjhjhkjjhjhjjhjhjjg'
+    '  Uma hora possui quantos segundos?.',
+    ' 3600.'
 )
 
 criaCartao(
