@@ -42,8 +42,9 @@ footer{
     text-align: center;
     /* color: var(--branco); */
 }
+
 .conteudo-cartao h3{
-    coloe: var(--destaque);
+    color: var(--destaque);
     border: 1px solid var(--destaque);
     position: absolute;
     margin: 0.5rem;
@@ -51,5 +52,21 @@ footer{
     text-align: left;
     border-radius: 0.6rem;
     font-size: 1vw;
-    
+}
+.conteudo-cartao p{
+    margin-top: 4rem;
+    padding: 2rem;
+    font-size: 1.4vw;
+
+}
+.pergunta-cartao{
+    font-weight: 500;
+}
+.resposta-cartao{
+    font-weight: 700;
+    color: var(--destaque);
+
+}
+.cartao:hover .conteudo-cartao{
+    transform: rotateY(180deg);
 }
