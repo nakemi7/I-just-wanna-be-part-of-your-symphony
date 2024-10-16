@@ -6,7 +6,7 @@ criaCartao(
 
 criaCartao(
     'Matematica',
-    'Ao afirmarmos que um refrigerante possui 5% de açúcar, significa que a cada 100 litros, 500 ml são de açúcar.',
+    'Ao afirmarmos que um refrigerante possui 5% de açúcar, significa que a cada 100 litros, 500 ml são de açúcar. Verdadeiro ou Falso?',
     'Falso. Ao afirmarmos que um refrigerante possui 5% de açúcar, significa que a cada 100 litros, 5000 ml (5 litros) são de açúcar.'
 )
 
