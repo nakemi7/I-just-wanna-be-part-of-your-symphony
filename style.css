@@ -41,6 +41,8 @@ footer{
     height: 100%;
     text-align: center;
     /* color: var(--branco); */
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
 .conteudo-cartao h3{
