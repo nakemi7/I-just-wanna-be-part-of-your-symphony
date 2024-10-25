@@ -33,7 +33,7 @@ footer{
     text-align: center;
 }
 
-#container{
+#conteiner{
     display: grid;
     gap: 3rem;
     padding: 4rem;
@@ -54,4 +54,5 @@ footer{
     background-color: var(--cartao-verso);
     padding: 40px;
     color: var(--branco);
+    display: none;
 }
