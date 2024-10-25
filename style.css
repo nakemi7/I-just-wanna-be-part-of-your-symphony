@@ -29,6 +29,7 @@ footer{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .cartao{
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -54,21 +55,33 @@ footer{
     text-align: left;
     border-radius: 0.6rem;
     font-size: 1vw;
+    backface-visibility: hidden;
 }
+
 .conteudo-cartao p{
     margin-top: 4rem;
     padding: 2rem;
     font-size: 1.4vw;
-
 }
+
 .pergunta-cartao{
     font-weight: 500;
 }
+
 .resposta-cartao{
     font-weight: 700;
     color: var(--destaque);
-
+    transform: rotateY(180deg);
+    background-color: var(--cartao-verso);
+    border: 2px solid var(--destaque);
 }
 .cartao:hover .conteudo-cartao{
     transform: rotateY(180deg);
+}
+
+.pergunta-cartao, .resposta-cartao{
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
