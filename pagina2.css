@@ -49,3 +49,9 @@ footer{
 .cartao:hover{
     transform: scale(1.02); 
 }
+
+.resposta.cartao{
+    background-color: var(--cartao-verso);
+    padding: 40px;
+    color: var(--branco);
+}
