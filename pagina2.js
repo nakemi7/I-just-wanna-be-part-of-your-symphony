@@ -13,6 +13,10 @@ function criaCartao (categoria, pergunta, resposta){
             </div>
         </div>
     `
-    
+
     conteiner.appendChild(cartao);
+}
+
+function mostrarResposta(){
+    const resposta = document.querySelector('.resposta-cartao')
 }
